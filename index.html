@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-cart-shopping"></i>Ecom</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Main</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exit</a>
+              </li>
+              <li class="nav-item">
+                <a type="button" class="btn btn-light position-relative">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      0
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="block px-4 py-5 my-5 text-center">
+            <div class="container">
+                <i class="fa-solid fa-mobile-screen-button fs-64"></i>
+            <h1 class="display-5 fw-bold text-body-emphasis">Ecommerce app</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#block" class="btn btn-primary btn-lg px-4 gap-3">All products</a>
+                <a href="#" class="btn btn-outline-secondary btn-lg px-4">Categories</a>
+              </div>
+            </div>
+            </div>
+        </div>
+      </main>
+
+      <div class="block" id="block">
+        <div class="container">
+            <h1 class="display-5 fw-bold">All products</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="./images/test.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Balloon cat</h5>
+                          <p class="card-text">1 000 000 &#8376</p>
+                          <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                      <img src="./images/photo_2024-12-12_19-10-46.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">hsadfajsjfdsdfa</h5>
+                        <p class="card-text">h &#8376</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="./images/photo_2024-12-12_19-10-43.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Time freeze</h5>
+                      <p class="card-text">20 000 &#8376</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card h-100">
+                  <img src="./images/soggycat.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Soggy</h5>
+                    <p class="card-text">Infinite &#8376</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+          </div>
+            </div>
+        </div>
+      </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
